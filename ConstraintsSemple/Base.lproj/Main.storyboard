@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bird" translatesAutoresizingMaskIntoConstraints="NO" id="SIs-gW-a81">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" constant="300" id="Cue-s7-mg7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bird" translatesAutoresizingMaskIntoConstraints="NO" id="Pig-xc-6Yd">
+                                <rect key="frame" x="200" y="0.0" width="200" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" constant="300" id="po7-aH-dwq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bird" translatesAutoresizingMaskIntoConstraints="NO" id="vSU-2v-YGr">
+                                <rect key="frame" x="400" y="0.0" width="200" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" constant="300" id="plD-6H-96R"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bird" translatesAutoresizingMaskIntoConstraints="NO" id="rh7-OE-cBA">
+                                <rect key="frame" x="200" y="300" width="200" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" constant="300" id="hs0-u0-Vfj"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bird" translatesAutoresizingMaskIntoConstraints="NO" id="IGi-mb-1Xh">
+                                <rect key="frame" x="400" y="300" width="200" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" constant="300" id="53l-Lc-UAZ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bird" translatesAutoresizingMaskIntoConstraints="NO" id="i0z-00-RKK">
+                                <rect key="frame" x="0.0" y="300" width="200" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" constant="300" id="Fpj-Zr-5kN"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IGi-mb-1Xh" firstAttribute="leading" secondItem="rh7-OE-cBA" secondAttribute="trailing" id="3jG-5o-aAH"/>
+                            <constraint firstItem="SIs-gW-a81" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="4ew-s6-Lbs"/>
+                            <constraint firstItem="i0z-00-RKK" firstAttribute="top" secondItem="SIs-gW-a81" secondAttribute="bottom" id="7uV-Uc-ejb"/>
+                            <constraint firstItem="rh7-OE-cBA" firstAttribute="width" secondItem="SIs-gW-a81" secondAttribute="width" id="9np-Zi-ayE"/>
+                            <constraint firstItem="vSU-2v-YGr" firstAttribute="width" secondItem="SIs-gW-a81" secondAttribute="width" id="Az6-PL-BBs"/>
+                            <constraint firstItem="rh7-OE-cBA" firstAttribute="leading" secondItem="i0z-00-RKK" secondAttribute="trailing" id="Dw2-F4-BrD"/>
+                            <constraint firstItem="rh7-OE-cBA" firstAttribute="top" secondItem="Pig-xc-6Yd" secondAttribute="bottom" id="GEJ-ai-tDy"/>
+                            <constraint firstItem="SIs-gW-a81" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Ml4-9l-3Qk"/>
+                            <constraint firstItem="i0z-00-RKK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="X3b-rg-wTP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IGi-mb-1Xh" secondAttribute="trailing" constant="-20" id="Y1e-v9-RyK"/>
+                            <constraint firstItem="i0z-00-RKK" firstAttribute="width" secondItem="SIs-gW-a81" secondAttribute="width" id="YAH-nZ-9Tu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vSU-2v-YGr" secondAttribute="trailing" constant="-20" id="ZEZ-8f-8p5"/>
+                            <constraint firstItem="IGi-mb-1Xh" firstAttribute="top" secondItem="vSU-2v-YGr" secondAttribute="bottom" id="ZT3-1i-QfY"/>
+                            <constraint firstItem="vSU-2v-YGr" firstAttribute="leading" secondItem="Pig-xc-6Yd" secondAttribute="trailing" id="adH-KC-JKS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rh7-OE-cBA" secondAttribute="bottom" id="eqj-SD-7LX"/>
+                            <constraint firstItem="IGi-mb-1Xh" firstAttribute="width" secondItem="SIs-gW-a81" secondAttribute="width" id="hVH-nw-VjY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="i0z-00-RKK" secondAttribute="bottom" id="kX7-he-Qa2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IGi-mb-1Xh" secondAttribute="bottom" id="led-FO-hx3"/>
+                            <constraint firstItem="Pig-xc-6Yd" firstAttribute="leading" secondItem="SIs-gW-a81" secondAttribute="trailing" id="m9O-xE-mm5"/>
+                            <constraint firstItem="Pig-xc-6Yd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="q0Y-gx-Hx1"/>
+                            <constraint firstItem="Pig-xc-6Yd" firstAttribute="width" secondItem="SIs-gW-a81" secondAttribute="width" id="vA2-ke-cN7"/>
+                            <constraint firstItem="vSU-2v-YGr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="vDR-QS-XbP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="height1" destination="Cue-s7-mg7" id="kvJ-z0-igm"/>
+                        <outlet property="height2" destination="po7-aH-dwq" id="odQ-uA-xpd"/>
+                        <outlet property="height3" destination="plD-6H-96R" id="svW-6X-sKq"/>
+                        <outlet property="height4" destination="Fpj-Zr-5kN" id="NDR-aD-r5B"/>
+                        <outlet property="height5" destination="hs0-u0-Vfj" id="r0h-TV-7R8"/>
+                        <outlet property="height6" destination="53l-Lc-UAZ" id="L1D-mK-mYC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_bird" width="199" height="299"/>
+    </resources>
+</document>
